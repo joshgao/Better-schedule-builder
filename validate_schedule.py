@@ -4,3 +4,5 @@ from helpers import Course, Major
 
 bacs = Major(name = "Computer Science, B.A.")
 
+courses_taken = []
+wishlist = []
