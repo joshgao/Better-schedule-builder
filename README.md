@@ -10,6 +10,7 @@ Given a set of classes to take for your degree at university, how can we optimiz
   + i.e. what do you want your "perfect schedule" to be?
 + Find solutions to one or some of those optimization problems
 + Handle the case where multiple classes satisfy the same requirement; i.e. math1320 = apma1110 both satisfy calc2
++ Be able to create diagrams or "prerequisite trees" not unlike that in the BACS advising doc
 
 ## Long-term
 + Draw from SIS / Lou's List to avoid typing out majors
