@@ -9,7 +9,38 @@ class Course:
     coreqs = []
     subsequents = [] # everything this course is a prereq for
 
-    #TODO: make getters/setters for each of the above instance variables
+    def has_prereqs(self):
+        if not self.prereqs: 
+            return False 
+        else: 
+            return True
+    
+    def get_prereqs(self):
+        return self.prereqs
+    
+    def get_content_difficulty(self):
+        return self.content_difficulty
+    
+    def get_meeting_days(self):
+        return self.meeting_days
+    
+    def get_meeting_times(self):
+        return self.meeting_times
+    
+    def has_coreqs(self):
+        if not self.coreqs:
+            return False
+        else: 
+            return True
+        
+    def has_subsequents(self):
+        if not self.subsequents:
+            return False
+        else:
+            return True
+    
+    def get_subsequents(self):
+        return self.subsequents
 
 class Major: #a barebones structure involving the names of courses and the requirement structure.
     def __init__(self, name) : #e.g. name = "Computer Science, B.A."
