@@ -41,6 +41,9 @@ class Course:
     
     def get_subsequents(self):
         return self.subsequents
+    
+    def time_overlap(self, other_course) -> bool:
+        return
 
 class Major: #a barebones structure involving the names of courses and the requirement structure.
     def __init__(self, name) : #e.g. name = "Computer Science, B.A."
