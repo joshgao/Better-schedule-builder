@@ -5,7 +5,7 @@ import pandas as pd
 #Example from CS3240 website
 clist = [('CS', '3100')] #these are the courses we're interested in
 url = 'https://sisuva.admin.virginia.edu/psc/ihprd/UVSS/SA/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_ClassSearch?institution=UVA01&term=1248&page=1'
-df = pd.DataFrame(columns=['a','b','c','d', 'e', 'f', 'g', 'h'])
+df = pd.DataFrame(columns=['subject','catalog_num','section','component', 'desc', 'course_idnum', 'enroll_cap', 'enroll_avail'])
 
 
 for c in clist: #for each course
